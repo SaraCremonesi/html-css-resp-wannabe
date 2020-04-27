@@ -96,7 +96,7 @@ img {
 
 @media screen and (max-width: 419px) {
   img  {
-    height: 350px;
+    height: 7em;
   }
 }
 
@@ -107,7 +107,7 @@ img {
 
 @media screen and (max-width: 419px) {
   body {
-    font-size: 80px;
+    font-size: 5em;
     width: 100%;
   }
 }
