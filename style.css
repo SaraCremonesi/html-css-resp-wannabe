@@ -5,6 +5,14 @@
   margin-top: 100px;
 }
 
+@media screen and (max-width: 1000px) {
+  .row {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+}
 
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
@@ -13,7 +21,7 @@
   float: left;
 }
 
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 1000px) {
 #lezioni .row>.left,
 #lezioni .row>.right {
   float: none;
@@ -41,7 +49,7 @@
   width: 33%;
 }
 
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 1000px) {
 #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
@@ -81,33 +89,26 @@
 }
 
 .container.grey {
-  background-color: #f9f9f9;
+  background-color: lightgray;
 }
-
+/*
 @media screen and (max-width: 419px) {
   .container.grey  {
     background-color: white;
   }
 }
-
+*/
 img {
   height: 200px;
 }
 
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 1000px) {
   img  {
     height: 7em;
   }
 }
 
+
 .clear {
   clear: both;
-}
-
-
-@media screen and (max-width: 419px) {
-  body {
-    font-size: 5em;
-    width: 100%;
-  }
 }
